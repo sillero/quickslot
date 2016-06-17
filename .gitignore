@@ -38,3 +38,5 @@ jspm_packages
 
 release/
 compile-cache/
+
+index.html
