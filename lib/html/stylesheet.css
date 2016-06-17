@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  background: #607D8B;
+  padding: 5px 5px 5px 40px;
+  transition: opacity .3s;
+  opacity: 0;
+  white-space: nowrap;
+}
+
+.loaded main {
+  opacity: 1;
+}
+
+.actions {
+  font-size: 0;
+}
+
+.actions button {
+  border: 0;
+  height: 30px;
+  padding: 8px 15px;
+  font-size: 13px;
+  line-height: 12px;
+  color: #215853;
+  margin-right: 10px;
+  background: skyblue;
+}
+
+.actions button:disabled {
+  opacity: 0.2;
+}
+
+.drag-area {
+  -webkit-app-region: drag;
+  cursor: -webkit-grab;
+}
+
+.handle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 30px;
+  background: skyblue;
+}

@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "action1": "ls -al",
+    "action2": "node -v",
+    "action3": "npm ls"
+  }
+}
