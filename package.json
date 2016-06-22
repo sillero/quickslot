@@ -1,6 +1,6 @@
 {
   "name": "quickslot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A GUI shortcut for your npm scripts",
   "main": "lib/entryMain.js",
   "bin": {
